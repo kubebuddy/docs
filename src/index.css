@@ -53,6 +53,7 @@ body {
 }
 .feature-card:hover {
   transform: translateY(-5px);
+  background: linear-gradient(135deg, #c8e8ff, #f8f8f8);
 }
 
 .footer {

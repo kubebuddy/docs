@@ -1,15 +1,17 @@
 import { useState, useEffect } from "react";
 
 const WelcomeModal = () => {
-    const [show, setShow] = useState(true);
-    useEffect(() => {
-      setShow(true);
-    }, []);
+    const [show, setShow] = useState(false);
+      useEffect(()=>{
+        setTimeout(()=>{
+            setShow(true);
+          }, 3000)
+      },[])
   
     return (
       <>
         {show && (
-          <div className="modal fade show d-block" tabIndex="-1">
+          <div className="modal fade show d-block" tabIndex="-1" onClick={() => setShow(prev=>!prev)}>
             <div className="modal-dialog text-center">
               <div className="modal-content">
                 <div className="modal-header p-3">

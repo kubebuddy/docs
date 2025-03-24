@@ -11,7 +11,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 
 function Docs() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{backgroundColor : "#fff"}}>
       <div className="row">
         {/* Sidebar */}
         <div className="col-md-4 col-lg-2 p-0 position-sticky d-none d-md-block" >

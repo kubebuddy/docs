@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function Sidebar() {
   return (
-    <div className="sidebar bg-light border-end p-3 min-vh-100">
+    <div className="sidebar border-end p-3 min-vh-100">
       <h5 className="fw-bold">Documentation</h5>
       <ul className="nav flex-column">
 

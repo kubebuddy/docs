@@ -31,7 +31,7 @@ function Installation() {
         <ul>
           <li>A running Kubernetes cluster</li>
           <li>A kubeconfig file present on your machine</li>
-          <li>Python 3.10 or above installed on your system</li>
+          <li><a href="https://www.python.org/downloads/" target="_blank">Python 3.10</a> or above installed on your system</li>
           <li>Git installed on your system</li>
         </ul>
         <hr class="border border-secondary-emphasis border-1 opacity-100 my-4"></hr>

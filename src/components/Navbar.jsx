@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom py-2 w-auto position-sticky fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light border-bottom py-2 w-auto position-sticky fixed-top" style={{backgroundColor : "rgb(248, 249, 250)"}}>
       <div className="container-fluid px-4">
         {/* Logo and brand */}
         <div className="navbar-brand d-flex align-items-center" href="/">
@@ -36,7 +36,7 @@ const Navbar = () => {
         <div className="d-flex align-items-center">
           {/* External links */}
           
-          <a href="https://github.com/thinknyx-technologies-llp/kubebuddy" className="text-decoration-none text-dark me-3 d-flex align-items-center" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/kubebuddy/docs" className="text-decoration-none text-dark me-3 d-flex align-items-center" target="_blank" rel="noopener noreferrer">
             GitHub
             <svg className="ms-1" width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 6H6C5.4 6 5 6.4 5 7V17C5 17.6 5.4 18 6 18H16C16.6 18 17 17.6 17 17V13" stroke="currentColor" strokeWidth="2" />
