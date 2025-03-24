@@ -16,36 +16,36 @@ function Platform() {
           <thead className="table-light">
             <tr>
               <th>Browser</th>
-              <th>Supported Versions</th>
+              <th>Supported</th>
               <th>Notes</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>Google Chrome</td>
-              <td>Latest 3 Versions</td>
+              <td>✅</td>
               <td>Fully Supported</td>
             </tr>
             <tr>
               <td>Mozilla Firefox</td>
-              <td>Latest 3 Versions</td>
+              <td>✅</td>
               <td>Fully Supported</td>
             </tr>
             <tr>
               <td>Microsoft Edge</td>
-              <td>Latest 2 Versions</td>
+              <td>✅</td>
               <td>Fully Supported</td>
             </tr>
             <tr>
               <td>Safari</td>
-              <td>Latest Version</td>
+              <td>✅</td>
               <td>May have minor UI inconsistencies</td>
             </tr>
           </tbody>
         </table>
 
         <hr class="border border-secondary-emphasis border-1 opacity-100 my-4"></hr>
-
+        {/* ✅❌❓ */}
         <h3>Kubernetes Provider Support</h3>
         <table className="table table-bordered">
           <thead className="table-light">
@@ -57,19 +57,19 @@ function Platform() {
           <tbody>
             <tr>
               <td>AWS EKS</td>
-              <td>✅ Yes</td>
+              <td>❓ Testing</td>
             </tr>
             <tr>
               <td>Google GKE</td>
-              <td>✅ Yes</td>
+              <td>❓ Testing</td>
             </tr>
             <tr>
               <td>Azure AKS</td>
-              <td>✅ Yes</td>
+              <td>❓ Testing</td>
             </tr>
             <tr>
               <td>DigitalOcean Kubernetes</td>
-              <td>✅ Yes</td>
+              <td>❓ Testing</td>
             </tr>
             <tr>
               <td>Minikube</td>

@@ -31,8 +31,8 @@ function Installation() {
         <ul>
           <li>A running Kubernetes cluster</li>
           <li>A kubeconfig file present on your machine</li>
-          <li><a href="https://www.python.org/downloads/" target="_blank">Python 3.10</a> or above installed on your system</li>
-          <li>Git installed on your system</li>
+          <li><a href="https://www.python.org/downloads/" target="_blank" style={{textDecoration:'none'}}>Python 3.10</a> or above installed on your system</li>
+          <li><a href="https://git-scm.com/downloads" target="_blank" style={{textDecoration:'none'}}>Git</a> installed on your system</li>
         </ul>
         <hr class="border border-secondary-emphasis border-1 opacity-100 my-4"></hr>
         <h3>Installation Steps</h3>
