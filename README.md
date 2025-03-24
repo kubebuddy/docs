@@ -1,4 +1,6 @@
-# Documentation Repository
+# KubeBuddy Documentation
+
+![KubeBuddy](https://socialify.git.ci/kubebuddy/docs/image?description=1&font=Rokkitt&logo=https%3A%2F%2Fwww.thinknyx.com%2Fwp-content%2Fuploads%2F2025%2F03%2FKubeBuddy-Logo.png&name=1&owner=1&pattern=Signal&theme=Auto)
 
 Welcome to the **KubeBuddy Documentation Repository**. This repository contains all the documentation related to KubeBuddy, including setup guides, feature explanations, and troubleshooting steps.
 
