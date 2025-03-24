@@ -11,7 +11,7 @@ const WelcomeModal = () => {
     return (
       <>
         {show && (
-          <div className="modal fade show d-block" tabIndex="-1" onClick={() => setShow(prev=>!prev)}>
+          <div className="modal fade show d-block" tabIndex="-1">
             <div className="modal-dialog text-center">
               <div className="modal-content">
                 <div className="modal-header p-3">
@@ -19,7 +19,7 @@ const WelcomeModal = () => {
                   <button
                     type="button"
                     className="btn-close"
-                    onClick={() => setShow(false)}
+                    onClick={() => setShow(prev=>!prev)}
                   ></button>
                 </div>
                 <div className="modal-body alert alert-primary mb-0 pb-0">
