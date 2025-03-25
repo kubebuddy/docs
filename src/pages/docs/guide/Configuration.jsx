@@ -3,7 +3,7 @@ import NextPrev from "../../../components/NextPrev";
 function Configuration() {
   return (
     <div className="container-fluid d-flex flex-column px-5 min-vh-100">
-      <h2 className="mb-4">Configuration</h2>
+      <h1 className="mb-4">Configuration</h1>
 
       <div className="mb-2">
         <h4>1. AI Configuration</h4>

@@ -4,7 +4,7 @@ import NextPrev from "../../../components/NextPrev";
 function BuddyAI() {
     return (
         <div className="container-fluid d-flex flex-column px-5 min-vh-100">
-          <h2 className="mb-4">Buddy AI</h2>
+          <h1 className="mb-4">Buddy AI</h1>
     
           <div className="mb-2">
             <h4>What is Buddy AI?</h4>

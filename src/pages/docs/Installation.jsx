@@ -11,7 +11,7 @@ function Installation() {
 
   const CodeBlock = ({ children }) => (
     <div className="position-relative p-3 rounded border" style={{ backgroundColor: "rgb(240, 239, 239)" }}>
-      <code className="text-dark">{children}</code>
+      <code className="text-dark" style={{ whiteSpace: "pre-wrap", display: "block" }}>{children}</code>
       <button
         className="btn btn-sm btn-outline-secondary position-absolute top-0 end-0 m-2"
         onClick={() => copyToClipboard(children)}
