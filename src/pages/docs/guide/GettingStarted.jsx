@@ -10,7 +10,7 @@ function GettingStarted() {
         <h4>1. Access the Application</h4>
         <p>KubeBuddy runs on any host machine with access to your Kubernetes cluster and allows multiple users to connect via <code>http://localhost:8000</code> using a supported browser.</p>
         <div className="col-md-6 mx-auto">
-          <img src={"/localhost.jpg"} alt="kubebuddy-localhost-access" className="img-fluid shadow-lg" />
+          <img src={"/localhost.jpg"} alt="kubebuddy-localhost-access" className="img-fluid shadow my-2" />
         </div>
       </div>
       
@@ -21,7 +21,7 @@ function GettingStarted() {
         🔒 <i>For security, we strongly recommend changing your password after the first login.</i>
         </p>
         <div className="col-md-5 mx-auto">
-        <img src={"/login.png"} alt="kubebuddy-login-page" className="img-fluid shadow-lg"/>
+        <img src={"/login.png"} alt="kubebuddy-login-page" className="img-fluid shadow my-2"/>
         </div>
       </div>
       
@@ -30,7 +30,7 @@ function GettingStarted() {
         <p>You will be prompted to enter the path to your <code>kubeconfig</code> file. You can either use the default path or manually enter a custom path. You can provide multiple config files to monitor multiple clusters. Once set, you’ll be redirected to the Cluster Selection page.
         </p>
         <div className="col-md-7 mx-auto">
-          <img src={"/config-path.png"} alt="kubebuddy-config-file" className="img-fluid shadow-lg" />
+          <img src={"/config-path.png"} alt="kubebuddy-config-file" className="img-fluid shadow my-2" />
         </div>
       </div>
       
@@ -43,7 +43,7 @@ function GettingStarted() {
           <li>An <strong>Auto-Reload</strong> feature is available on this page. If toggled on, the page will automatically reload every 30 seconds to reflect the latest cluster status.</li>
         </ul>
         <div className="mx-auto">
-          <img src={"/cluster-select.png"} alt="kubebuddy-cluster-select" className="img-fluid shadow-lg" />
+          <img src={"/cluster-select.png"} alt="kubebuddy-cluster-select" className="img-fluid shadow my-2" />
         </div>
       </div>
       
@@ -53,19 +53,19 @@ function GettingStarted() {
         <ul>
           <li> User Information – View details about your account.</li>
           <div className="my-4">
-            <img src={"/settings-user.png"} alt="kubebuddy-settings-user" className="img-fluid shadow-lg" />
+            <img src={"/settings-user.png"} alt="kubebuddy-settings-user" className="img-fluid shadow my-2" />
           </div>
           <li>Buddy AI Configuration – Integrate Buddy AI by providing your API key. This enables AI-powered assistance for troubleshooting and insights.</li>
           <div className="my-4">
-            <img src={"/settings-ai.png"} alt="kubebuddy-settings-ai" className="img-fluid shadow-lg" />
+            <img src={"/settings-ai.png"} alt="kubebuddy-settings-ai" className="img-fluid shadow my-2" />
           </div>
           <li>Change Password – Secure your account by updating your password anytime.</li>
           <div className="my-4">
-            <img src={"/settings-password.png"} alt="kubebuddy-settings-password" className="img-fluid shadow-lg" />
+            <img src={"/settings-password.png"} alt="kubebuddy-settings-password" className="img-fluid shadow my-2" />
           </div>
           <li>Documentation – Access helpful guides, FAQs and resources to make the most of KubeBuddy.</li>
           <div className="my-4">
-            <img src={"/settings-docs.jpg"} alt="kubebuddy-settings-docs" className="img-fluid shadow-lg" />
+            <img src={"/settings-docs.jpg"} alt="kubebuddy-settings-docs" className="img-fluid shadow my-2" />
           </div>
         </ul>
       </div>

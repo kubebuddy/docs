@@ -3,7 +3,7 @@ import { Accordion } from 'react-bootstrap';
 
 const FAQ = () => {
     return (
-        <div className="container my-5">
+        <div className="container my-5 ">
             <h2 className="mb-4 text-center">Frequently Asked Questions</h2>
             <Accordion defaultActiveKey="0" alwaysOpen>
                 <Accordion.Item eventKey="0">
