@@ -24,6 +24,12 @@ const FAQ = () => {
                     Your API key is encrypted and stored securely. We never transmit your API key outside of your authenticated sessions, and it's not stored in plain text.
                     </Accordion.Body>
                 </Accordion.Item>
+                <Accordion.Item eventKey="3" alwaysOpen>
+                    <Accordion.Header>How to view complete events message?</Accordion.Header>
+                    <Accordion.Body>
+                    You can view the full event message by clicking on the message text to expand it.
+                    </Accordion.Body>
+                </Accordion.Item>
             </Accordion>
         </div>
     );
