@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="footer p-5 d-flex flex-row justify-content-around border-top">
+    <footer className="footer p-4 d-flex flex-row justify-content-around border-top">
       <div className="d-flex flex-column align-items-center">
         <img src={"/KubeBuddy.png"} alt="kubebuddy-logo" style={{ width: "8rem" }}/>
         <p>&copy; 2025 Thinknyx Technologies LLP</p>

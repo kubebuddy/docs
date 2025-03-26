@@ -22,7 +22,7 @@ body {
 
 .nav-link:hover {
   background-color: #e9ecef;
-  border-radius: 5px;
+  border-radius: 1rem;
 }
 
 .nav-link.active-link {
@@ -42,12 +42,12 @@ body {
 .fetures-img {
   width: 8rem;
   height: 8rem;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
 }
 
 .feature-card {
   background: white;
-  border-radius: 10px;
+  border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
   transition: transform 0.2s ease-in-out;
@@ -66,7 +66,7 @@ body {
   color: black;
 }
 
-a {
+footer a {
   text-decoration: none;
   color: #212529;
 }
