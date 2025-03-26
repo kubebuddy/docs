@@ -8,9 +8,10 @@ body {
 
 .sidebar {
   height: 100vh;
-  position: fixed;
-  width: 250px;
+  /* position: fixed; */
+  width: 16rem;
   overflow-y: auto;
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
 }
 
 /* Side and nav bar links styling */
@@ -57,11 +58,19 @@ body {
 }
 
 .footer {
-  background-color: #F8F9FA; /* Soft gray for a subtle footer */
-  color: #6C757D;
+  background-color:rgb(248, 249, 250) /* Soft gray for a subtle footer */
 }
 
 .gradient {
   background: linear-gradient(135deg, #E3F2FD, #F8F9FA); /* Light blue to light gray */
   color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }

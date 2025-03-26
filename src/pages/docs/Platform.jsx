@@ -90,6 +90,22 @@ function Platform() {
           </tbody>
         </table>
         <hr class="border border-secondary-emphasis border-1 opacity-100 my-4"></hr>
+        <h3>Kubernetes Version Support</h3>
+        <table className="table table-bordered">
+          <thead className="table-light">
+            <tr>
+            <th>KubeBuddy Version</th>
+            <th>Kubernetes Version supported</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td>1.0.0</td>
+            <td>1.30, 1.31 and 1.32</td>
+            </tr>
+          </tbody>
+        </table>
+        <hr class="border border-secondary-emphasis border-1 opacity-100 my-4"></hr>
         <h3>Notes</h3>
         <ul>
           <li>Ensure your browser is updated for the best experience.</li>

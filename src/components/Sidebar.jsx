@@ -19,7 +19,7 @@ function Sidebar() {
 
          {/* Guide Section with Subsections */}
          <li className="nav-item">
-          <h6 className="fw-bold text-dark m-3">Guide</h6>
+          <h6 className="fw-bold text-dark m-2">Guide</h6>
           <ul className="nav flex-column ps-3">
             <li className="nav-item">
               <NavLink className={({ isActive }) => `nav-link text-dark fw-medium rounded ${isActive ? "active bg-primary text-white" : "hover-bg-light"}`} to="/docs/guide/getting-started">Getting Started</NavLink>
