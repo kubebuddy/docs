@@ -62,6 +62,10 @@ body {
   position: sticky;
 }
 
+#footer-div {
+  height: 1rem;
+}
+
 .gradient {
   background: linear-gradient(135deg, #E3F2FD, #F8F9FA); /* Light blue to light gray */
   color: black;

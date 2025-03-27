@@ -6,14 +6,18 @@ function BuddyAI() {
         <div className="container-fluid d-flex flex-column px-5 min-vh-100">
           <h1 className="mb-4">Buddy AI</h1>
     
-          <div className="mb-2">
+          <div>
             <h4>What is Buddy AI?</h4>
             <p>
               <strong>Buddy AI</strong> is an in-app chatbot designed to assist users with technical queries.  
               It provides real-time solutions for problems and errors directly within the application.
             </p>
           </div>
-    
+
+          <div className="px-5 py-3 mb-4">
+            <img src={"/buddy-bot.png"} alt="kubebuddy-terminal" className="img-fluid shadow" />
+          </div>
+
           <div className="mb-2">
             <h4>How to Access Buddy AI?</h4>
             <p>

@@ -6,11 +6,15 @@ function Terminal() {
     <div className="container-fluid d-flex flex-column px-5 min-vh-100">
       <h2 className="mb-4">Terminal</h2>
 
-      <div className="mb-2">
+      <div>
         <p>
           The application provides an integrated <strong>Terminal</strong> that allows users to interact with the host machine  
           where the application is running. This enables users to execute commands without leaving the application.
         </p>
+      </div>
+
+      <div className="px-5 py-3 mb-4">
+      <img src={"/buddy-terminal.png"} alt="kubebuddy-terminal" className="img-fluid shadow" />
       </div>
 
       <div className="mb-2">

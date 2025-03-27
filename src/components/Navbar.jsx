@@ -19,7 +19,7 @@ const Navbar = () => {
         </button>
 
         {/* Logo and brand */}
-        <div className="navbar-brand d-flex align-items-center">
+        <div className="navbar-brand d-flex align-items-center justify-content-center">
           <img src={"/KubeBuddy-no-title.png"} alt="KubeBuddy Logo" className="img-fluid mx-2" style={{ maxWidth: "40px" }} />
           <NavLink className="navbar-brand fw-semibold" to="/"><span className="text-primary fw-bold league-spartan">KUBE</span><span className="fw-bold league-spartan">BUDDY</span></NavLink>
         </div>
@@ -81,7 +81,7 @@ const Navbar = () => {
 
         {/* Right-side items */}
         <div className="d-flex align-items-center">
-          <a href="https://github.com/kubebuddy/docs" className="text-decoration-none text-dark me-3 d-flex align-items-center" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/kubebuddy/kubebuddy" className="text-decoration-none text-dark me-3 d-flex align-items-center" target="_blank">
             GitHub
             <svg className="ms-1" width="14" height="14" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M10 6H6C5.4 6 5 6.4 5 7V17C5 17.6 5.4 18 6 18H16C16.6 18 17 17.6 17 17V13" stroke="currentColor" strokeWidth="2" />

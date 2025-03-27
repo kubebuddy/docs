@@ -30,6 +30,12 @@ const FAQ = () => {
                     You can view the full event message by clicking on the message text to expand it.
                     </Accordion.Body>
                 </Accordion.Item>
+                <Accordion.Item eventKey="4" alwaysOpen>
+                    <Accordion.Header>Can I access KubeBuddy logs?</Accordion.Header>
+                    <Accordion.Body>
+                    Yes, you can find KubeBuddy logs in the <code>logs</code> directory within the application's main directory.
+                    </Accordion.Body>
+                </Accordion.Item>
             </Accordion>
         </div>
     );
