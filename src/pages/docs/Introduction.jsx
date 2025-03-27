@@ -9,7 +9,7 @@ function Introduction() {
         <p>
         KubeBuddy is an AI-driven Kubernetes dashboard designed to simplify your Kubernetes experience. It prioritizes ease of use, accessibility, and AI-driven insights to empower teams at every level. With no additional installations required inside your cluster, KubeBuddy offers a clean, intuitive interface that makes Kubernetes management effortless.
         </p>
-
+        <img src={"/dashboard.png"} alt="kubebuddy-dashboard" className="img-fluid shadow mb-4 p-4" />
         <h4>Why KubeBuddy?</h4>
         <ul>
           <li>KubeBuddy simplifies Kubernetes management with a streamlined, user-friendly interface.</li>

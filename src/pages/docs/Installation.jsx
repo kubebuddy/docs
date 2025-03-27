@@ -25,8 +25,7 @@ function Installation() {
     <div className="container-fluid d-flex flex-column px-5 min-vh-100">
       <div className="flex-grow-1">
         <h1>Installation</h1>
-        <p>Follow these steps to install and set up KubeBuddy.</p>
-
+        <p>Kubebuddy is a versatile solution that can be deployed across multiple platforms, including Linux, Windows, and macOS. Its cross-platform compatibility ensures that organizations can seamlessly integrate it into diverse IT environments.</p>
         <h3>Prerequisites</h3>
         <ul>
           <li>A running Kubernetes cluster</li>
