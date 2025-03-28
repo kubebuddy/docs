@@ -37,9 +37,17 @@ function Home() {
         </h1>
     </div>
 
+    {/* Youtube video */}
+    <div className="youtube-video d-flex flex-column align-items-center justify-content-center m-3 p-3">
+        <p className="lead text-center pb-4 w-75">KubeBuddy is an AI-powered Kubernetes dashboard designed to streamline your Kubernetes management. Focused on simplicity, accessibility, and intelligent insights, it empowers teams of all skill levels. With a user-friendly interface and no need for additional in-cluster installations, KubeBuddy makes managing Kubernetes effortless. Check the below video for leanring more about Kubebuddy.</p>
+        <div className="ratio ratio-16x9 w-50">
+        <iframe src="https://www.youtube-nocookie.com/embed/hSxQl-pWdC4?si=1MpVUfNDqXdBm2-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
     {/* Feature Section */}
     
-<div id="features" className="container-fluid w-100 text-center py-5" style={{backgroundColor : "#fff"}}>
+<div id="features" className="container-fluid w-100 text-center py-4" style={{backgroundColor : "#fff"}}>
     <div className="row flex flex-row justify-content-around w-100">
         <div className="col-md-3 mx-3 p-3 feature-card gradient m-4">
             <img src={'/interface.png'} alt="Intuitive Interface" className="features-img mb-3" style={{ width: "8rem" }} />

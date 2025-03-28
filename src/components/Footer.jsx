@@ -12,8 +12,8 @@ function Footer() {
           <div className="col-12 col-md-4 mt-3 mt-md-0">
             <h5>Community</h5>
             <ul className="list-unstyled px-2">
-              <li><a href="https://github.com/kubebuddy/kubebuddy" target="_blank">GitHub</a></li>
-              <li><a href="https://github.com/kubebuddy/docs" target="_blank">Contribute</a></li>
+              <li><a href="https://github.com/kubebuddy/kubebuddy" target="_blank" className="fw-semibold">GitHub</a></li>
+              <li><a href="https://github.com/kubebuddy/docs" target="_blank" className="fw-semibold">Contribute</a></li>
             </ul>
           </div>
           <div className="col-12 col-md-4 mt-3 mt-md-0">
