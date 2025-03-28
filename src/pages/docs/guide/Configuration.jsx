@@ -43,7 +43,7 @@ function Configuration() {
             <li>This section provides a brief overview of the project and includes a link to the full documentation.</li>
             <li>Click the provided link to access this detailed documentation page.</li>
         </ul>
-        <img src={"/settings-password.png"} alt="kubebuddy-settings-password" className="img-fluid m-3 p-3 shadow" />
+        <img src={"/settings-docs.jpg"} alt="kubebuddy-settings-password" className="img-fluid m-3 p-3 shadow" />
         </div>
 
       <NextPrev prev="/docs/guide/getting-started" prevTitle="Getting-started" next="/docs/guide/buddyai" nextTitle="Buddy AI" />
