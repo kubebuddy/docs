@@ -5,7 +5,7 @@ const FAQ = () => {
     return (
         <div className="container my-5 ">
             <h2 className="mb-4 text-center">Frequently Asked Questions</h2>
-            <Accordion defaultActiveKey="0" alwaysOpen>
+            <Accordion alwaysOpen>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>How do I add multiple clusters?</Accordion.Header>
                     <Accordion.Body>
